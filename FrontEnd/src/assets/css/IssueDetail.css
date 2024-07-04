@@ -1,0 +1,554 @@
+body {
+    font-family: montserrat, arial, verdana;
+  }
+  .lightbox{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity .3s ease;
+  }
+
+  .lightbox-form {
+    align-content: center;
+    align-items: center;
+    flex-basis: 700px;
+    max-width: 700px;
+    width: 700px;
+  }
+
+  .lightbox .title {
+    text-align: center;
+  }
+
+  .lightbox h2 {
+    font-size: 1.7rem;
+    font-family: Ubuntu-Regular,Arial,Helvetica,sans-serif;
+  }
+  
+  .form {
+    text-align: justify;
+    width: 100%;
+    flex: 1;
+    min-width: min-content;
+    padding: 1rem;
+    position: relative;
+  }
+
+  .lightbox textarea {
+    min-height: 4.5rem;
+    resize: vertical;
+    overflow: auto;
+  }
+
+  .create-button {
+    padding: 0.75rem 1.5rem;
+    font-size: .875rem;
+    align-items: center;
+    background-color: #83eede;
+    border: 0;
+    border-radius: 4px;
+    color: #2e3440;
+    display: inline-flex;
+    justify-content: center;
+    line-height: initial;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 100%;
+  }  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(206, 124, 124);
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .close-button:hover {
+    background-color: #c00;
+  }
+
+
+.save_button {
+    background-color: #18d6b3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.save_button:hover {
+    background-color: #18d6b3;
+}
+
+
+.taiga-btn-delete {
+    border: none;
+    padding-bottom: 20px;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.taiga-btn-delete:hover {
+    background-color: #c0392b;
+}
+
+.taiga-btn-delete img {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.activity ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.activity li {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+}
+  
+.activity p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.activity p:first-child {
+    font-weight: bold;
+    color: #18d6b3;
+}
+
+.activity p:nth-of-type(2) {
+    font-style: italic;
+    color: #999;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(206, 124, 124);
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    background-color: #c00;
+}
+
+.block-reason {
+    background-color: rgb(255, 0, 0);
+    color: white; 
+}
+
+.btn-lock, .btn-unlock {
+    font-size: 24px; /* Aumenta el tamaño de fuente del botón a 24 píxeles */
+    /* Agregue otros estilos personalizados para el botón aquí */
+}
+
+
+
+.comment {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
+  
+.comment ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.comment p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.comment p:first-child {
+    font-weight: bold;
+    color: #18d6b3;
+}
+
+.comment p:nth-of-type(2) {
+    font-style: italic;
+    color: #999;
+}
+  
+.comment hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+.comment li {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+}
+
+.submit_button {
+    background-color: #18d6b3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+ .watchers-component li {
+    text-decoration: none;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+}
+.watchers-component ul{
+    text-decoration: none;
+}
+
+.watchers-component fieldset{
+    border:none;
+}
+
+
+
+.form-element {
+  display: flex;
+  align-items: center;
+}
+
+.subject-label{
+  font-size: 1.7rem;
+  font-family: Ubuntu-Regular,Arial,Helvetica,sans-serif;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  margin-right: 10px;
+  color: #18d6b3;
+  font-weight: 400;
+}
+
+.subject-input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #18d6b3;
+  color: #fff;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.subject-input:focus {
+  outline: none;
+  box-shadow: 0 0 6px #18d6b3;
+}
+
+
+.info-issue {
+  display: flex;
+  justify-content: space-between;
+}
+
+.issue-label {
+  font-size: 1rem;
+  font-family: Ubuntu-Regular,Arial,Helvetica,sans-serif;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: #2e3440;
+  font-weight: 200;
+}
+
+.creator-label{
+  font-size: 1rem;
+  font-family: Ubuntu-Regular,Arial,Helvetica,sans-serif;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: #2e3440;
+  font-weight: 200;
+}
+
+
+.description-input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000000;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.description-input:focus {
+  outline: none;
+  box-shadow: 0 0 6px #18d6b3;
+}
+
+
+.save-info-button {
+  width: 180px;
+  height: 45px;
+  padding: 10px;
+  background-color: #18d6b3;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.save-info-button:hover {
+  background-color: #15c2a2;
+}
+
+.save-info-button:focus {
+  outline: none;
+  box-shadow: 0 0 6px #18d6b3;
+}
+
+
+
+.assigned-component {
+  display: flex;
+  align-items: center;
+}
+
+.assigned-label {
+  color: #18d6b3;
+  font-size: 26px;
+  margin-right: 20px;
+  line-height: 1; /* Adjust the line-height as needed */
+}
+
+.select-assigned {
+  padding: 8px;
+  border: 1px solid #18d6b3;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+  color: #000000;
+  vertical-align: middle; /* Align the select element vertically */
+}
+
+.assign-button {
+  border: none;
+  padding-bottom: 15px;
+  width: 40px;
+  height: 40px;
+  background: url("../images/save.png") no-repeat center center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  border-radius: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.assign-button:hover {
+  background-color: #18d6b3;
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+
+.watchers-component {
+  display: flex;
+  align-items: center;
+}
+
+.watchers-component li {
+  list-style: none;
+  margin-right: 10px;
+  color: #000000;
+  border: 1px solid #18d6b3;
+  border-radius: 5px;
+}
+
+.watchers-component input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+
+
+.add-comment {
+  display: flex;
+  align-items: center;
+}
+
+.comment-textarea {
+  flex: 8;
+  width: 50px;
+  height: 10px;
+  resize: none;
+  padding: 5px;
+}
+
+.post-comment-button {
+  flex: 1;
+  margin-left: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: #18d6b3;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.post-comment-button:hover {
+  background-color: #15c0a9;
+}
+
+
+
+
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+}
+
+.header-activity {
+  display: flex;
+  align-items: center;
+}
+
+.info-activity {
+  display: flex;
+  align-items: center;
+}
+
+.creator-activity-label {
+  color: #18d6b3;
+  margin: 0;
+  padding: 5px;
+}
+.created-at-activity-label {
+  color: #5e6767;
+  margin: 0;
+  padding: 5px;
+  font-size: 15px;
+}
+.type-activity-label {
+  font-weight: bold;
+  background-color: #18d6b3;
+  color: white;
+  padding: 5px;
+  margin-right: 25px;
+}
+.user-activity-label {
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 5px;
+  margin-right: 30;
+}
+
+.sign-label{
+  color: #18d6b3;
+  margin: 0;
+  padding: 5px;
+}
+
+.file {
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.file-name {
+  color: #18d6b3;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.taiga-btn-delete {
+  border: none;
+  width: 30px;
+  height: 30px;
+  background: url("../images/delete.png") no-repeat center center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.taiga-btn-delete:hover {
+  background-color: #c0392b;
+}
+
+.taiga-btn-delete img {
+  max-width: 20px;
+  max-height: 20px;
+}
+
+
+.add-file {
+  display: flex;
+  align-items: center;
+}
+
+.add-file-input {
+  display: flex;
+  flex: 8;
+}
+
+.add-file-button {
+  background-color: #18d6b3;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-left: 10px;
+  flex: 1;
+}
+
+.add-file-button:hover {
+  background-color: #15c0a9;
+}
+
+.blocked {
+  color: black;
+}

@@ -1,0 +1,41 @@
+nav {
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+  
+/* Estilo del título de la aplicación */
+.app-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin: 0;
+}
+  
+/* Estilo de la lista de enlaces */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+  
+/* Estilo de los enlaces */
+nav li {
+    margin-right: 20px;
+}
+  
+nav a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.2s;
+}
+  
+nav a:hover {
+    color: #3C91E6;
+}

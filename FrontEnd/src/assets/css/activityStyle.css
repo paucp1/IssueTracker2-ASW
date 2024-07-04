@@ -1,0 +1,38 @@
+.activity div {
+    width: 92%;
+    margin: 5px auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 2px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+.activity ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.activity p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.activity p:first-child {
+    font-weight: bold;
+    color: #18d6b3;
+    font-size: 120%;
+}
+
+.activity p:nth-of-type(2) {
+    font-style: italic;
+    color: #999;
+}

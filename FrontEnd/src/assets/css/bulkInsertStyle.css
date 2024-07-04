@@ -1,0 +1,86 @@
+body {
+  font-family: montserrat, arial, verdana;
+}
+
+.bulk {
+  width: 500px;
+  margin: 50px auto;
+  text-align: center;
+  position: relative;
+
+}
+
+.bulk fieldset {
+  background: white;
+  border: 0 none;
+  border-radius: 3px;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+  padding: 20px 30px;
+  box-sizing: border-box;
+  width: 80%;
+  margin: 0 10%;	
+  position: relative;
+}
+
+.bulk input, textarea {
+  padding: 15px;
+  border: 1px solid #18d6b3;
+  border-radius: 3px;
+  margin-bottom: 10px; 
+  width: 100%;
+  box-sizing: border-box;
+  font-family: montserrat, arial, verdana;
+  color: #2C3E50;
+  font-size: 13px;
+}
+
+input[name="description"] {
+height: 300px;
+vertical-align: top;
+}
+
+.bulk .action-button {
+  width: 100px;
+  background: #18d6b3;
+  font-weight: bold;
+  color: #2C3E50;
+  border: 0 none;
+  border-radius: 1px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px 5px;
+  text-decoration: none;
+  font-size: 14px;
+  clear: both;
+}
+.bulk .action-button:hover, .bulk .action-button:focus {
+  box-shadow: 0 0 0 2px white, 0 0 0 3px #18d6b3;
+}
+
+.bulk title {
+  padding: 5%;
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: #2e3440;
+  font-weight: 400;
+  font-family: Ubuntu-Regular,Arial,Helvetica,sans-serif;
+}
+
+.fs-textarea {
+height: 100px;
+overflow-y: scroll;
+resize: none;
+}
+
+.confirm-button {
+  background-color: #83eede;
+}  
+
+.confirm-button:hover {
+  background-color: #529a8f;
+}

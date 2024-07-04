@@ -1,0 +1,118 @@
+body {
+    font-family: montserrat, arial, verdana;
+  }
+  .lightbox{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity .3s ease;
+  }
+
+  .lightbox-form {
+    align-content: center;
+    align-items: center;
+    flex-basis: 700px;
+    max-width: 700px;
+    width: 700px;
+  }
+
+  .lightbox .title {
+    padding: 5%;
+    text-align: center;
+  }
+
+  .lightbox h2 {
+    font-size: 1.7rem;
+    font-family: Ubuntu-Regular,Arial,Helvetica,sans-serif;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+    font-family: Ubuntu-Regular,Arial,Helvetica,sans-serif;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #2e3440;
+    font-weight: 400;
+  }
+  .form {
+    text-align: justify;
+    width: 100%;
+    flex: 1;
+    min-width: min-content;
+    padding: 1rem;
+    position: relative;
+  }
+  .form-element {
+    padding: 0.1rem;
+    margin-bottom: 0.1rem;
+  }
+
+  .lightbox textarea {
+    min-height: 4.5rem;
+    resize: vertical;
+    overflow: auto;
+  }
+  input {
+    background: #fff;
+    border: 2px solid #d8dee9;
+    border-radius: 3px;
+    color: #4c566a;
+    padding: 0.3rem;
+    width: 98.15%;
+  }
+  textarea{
+    background: #fff;
+    border: 2px solid #d8dee9;
+    border-radius: 3px;
+    color: #4c566a;
+    padding: 0.3rem;
+    width: 100%;
+  }
+
+  .buttons{
+    display: flex;
+    column-gap: 5px;
+  }
+
+  .buttons button {
+    padding: 0.75rem 1.5rem;
+    font-size: .875rem;
+    align-items: center;
+    border: 0;
+    border-radius: 4px;
+    font: inherit;
+    color: #2e3440;
+    margin: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-flex;
+    justify-content: center;
+    line-height: initial;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 100%;
+  }
+
+  .create-button {
+    background-color: #83eede;
+  }  
+
+  .create-button:hover {
+    background-color: #529a8f;
+  }
+
+  .cancel-button {
+    background-color: #c0c0c0;
+  }  
+
+  .cancel-button:hover {
+    background-color: #787878;
+  }
+
+  .linked-button{
+    width: 100%;
+  }

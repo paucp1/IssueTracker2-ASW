@@ -1,0 +1,121 @@
+.new-issue-btn, .btn-small {
+    font-size: .875rem;
+    align-items: center;
+    background-color: #83eede;
+    border: 0;
+    border-radius: 4px;
+    color: #2e3440;
+    display: inline-flex;
+    justify-content: center;
+    line-height: initial;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.new-issue-btn .btn-small:hover {
+    background-color: #005b82;
+    color: #FFFFFF;
+}
+
+.issue-header .new-issue-btn {
+    margin-right: 1rem;
+}
+
+.new-issue-btn, .btn-small {
+    padding: 0.45rem 1rem;
+}
+
+.user-profile {
+    max-width: 780px;
+}
+.main {
+    flex: 1;
+    min-width: 0;
+    padding: 1rem;
+}
+
+section {
+    display: block;
+}
+
+section h1{
+    font-family: Ubuntu-Medium,Arial,Helvetica,sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #008aa8;
+    -webkit-margin-after: 1rem;
+    margin-block-end: 1rem;
+}
+
+.messages {
+    color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+  
+.user-profile label {
+    display: block;
+    margin-bottom: 0.2rem;
+  }
+
+  .user-profile  {
+    flex: 1;
+    max-width: 500px;
+  }
+
+  .user-profile fieldset {
+      margin-bottom: 1rem;
+  }
+
+  fieldset {
+      border: 0;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      width: 100%;
+  }
+
+  input,textarea {
+      line-height: normal;
+  }
+
+  input[type=text], textarea {
+      background: #fff;
+      border: 2px solid #d8dee9;
+      border-radius: 3px;
+      color: #4c566a;
+      margin: 0;
+      padding: 0.3rem 1rem 0.3rem 0.95rem;
+      width: 100%;
+  }
+
+  textarea {
+      min-height: 5rem;
+      resize: vertical;
+      line-height: normal;
+      font-size:22px;
+  }
+
+  .change-photo-btn {
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .change-photo-btn:hover {
+    color: #5faba0;
+  }
+
+  .profile-pic {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+  }
+
+  .black-label {
+    color: #4c566a;
+}
+  
